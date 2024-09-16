@@ -31,6 +31,7 @@ li {
 
 .dog {
   margin-top: -80px;
+  margin-bottom: 180px;
 }
 .dog__wrap {
   background-color: #5D62B5;
@@ -42,4 +43,40 @@ li {
   position: absolute;
   top: -110px;
   right: -70px;
+}
+.dog__subtitle {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #F5F5F5;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: -54px;
+}
+.dog__photo {
+  position: relative;
+  bottom: -120px;
+}
+.dog__photo img {
+  border-radius: 40px;
+}
+.dog__blob {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
 }

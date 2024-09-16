@@ -31,6 +31,7 @@ li {
 
 .dog {
     margin-top: -80px;
+    margin-bottom: 180px;
     &__wrap {
         background-color: #5D62B5;
         padding: 100px 87px 0 87px;
@@ -41,5 +42,48 @@ li {
         position: absolute;
         top: -110px;
         right: -70px;
+    }
+
+    &__subtitle {
+        color: #F5F5F5;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        &-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 33px;
+        }
+    }
+
+    &__title {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 900;
+        max-width: 583px;
+        margin-bottom: 36px;
+    }
+
+    &__text {
+        color: #F5F5F5;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: -54px;
+    }
+
+    &__photo {
+        position: relative;
+        bottom: -120px;
+        & img {
+            border-radius: 40px;
+        }
+
+    }
+
+    &__blob {
+        position: absolute;
+        bottom: -140px;
+        left: 0;
     }
 }
